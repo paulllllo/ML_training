@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artifacts
+data/
+*.csv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+checkpoints/
+wandb/
+mlruns/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
